@@ -1,5 +1,5 @@
 import React from 'react';
-import s from './Maintenance.module.css';
+import s from './maintenance.module.css';
 import Helmet from 'react-helmet';
 import {Layout, Container} from 'layouts'
 const moment = require('moment');
