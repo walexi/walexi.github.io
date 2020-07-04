@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+body { 
+  font-family: 'Source Sans Pro', sans-serif ;
+}
+
+
+.root {
+  height: 100vh;
+  width: 100vw;
+  background: #3E4095 !important;
+  margin: 0 !important;
+}
+
+
+#wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+
+.content {
+  width: 100% !important;
+  margin: 15px auto !important;
+  text-align: center !important;
+  padding: 10px;
+}
+
+.content > p {
+  color: white;
+}
+.content > h1 {
+  margin: 0 auto;
+  word-break: break-word;
+  font-weight: 500 !important;
+  font-size: 1.5em !important;
+  color: #ffff;
+  min-width: 300px;
+  max-width: 340px;
+  padding: 10px
+}
+
+
+/* 
+Server by @chrisburton
+*/
+
+.grid {
+  max-width: 175px;
+  height: fit-content;
+  background: #222;
+  margin: 0 auto;
+  padding: 1em 0;
+  border-radius: 3px;
+}
+
+
+.grid .server {
+  display: block;
+  max-width: 68%;
+  height: 20px;
+  background: rgba(255,255,255,.15);
+  box-shadow: 0 0 0 1px black inset;
+  margin: 10px 0 20px 30px;
+}
+
+.grid .server:before {
+  content: "";
+  position: relative;
+  top: 7px;
+  left: -18px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: green;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin-top: 7px;
+}
+
+/* Animation */
+
+@-webkit-keyframes pulse {
+  0% {background: rgba(255,255,255,.15);}
+  100% {background: #ae1508;}
+}
+
+.grid .server:nth-child(3):before {
+  background: rgba(255,255,255,.15);
+  -webkit-animation: pulse .5s infinite alternate;
+}
+
+@-webkit-keyframes pulse_three {
+  0% {background: rgba(255,255,255,.15);}
+  100% {background: #d2710a;}
+}
+
+.grid .server:nth-child(5):before {
+  background: rgba(255,255,255,.15);
+  -webkit-animation: pulse_three .7s infinite alternate;
+}
+
+@-webkit-keyframes pulse_two {
+  0% {background: rgba(255,255,255,.15);}
+  100% {background: #9da506;}
+}
+.grid .server:nth-child(1):before {
+  background: rgba(255,255,255,.15);
+  -webkit-animation: pulse_two .1s infinite alternate;
+}
+.grid .server:nth-child(2):before {
+  background: rgba(255,255,255,.15);
+  -webkit-animation: pulse_two .175s infinite alternate;
+}
+.grid .server:nth-child(4):before {
+  background: rgba(255,255,255,.15);
+  -webkit-animation: pulse_two .1s infinite alternate;
+}
+
+.footer {
+  color: white;
+  position: absolute;
+  font-size: x-small;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.footer > div > p {
+  float: left;
+  margin: 0 0px 9px;
+  font-family: -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: 500 !important;
+  color: black;
+  text-decoration: underline solid black !important;
+}
