@@ -3,14 +3,14 @@
 
 <head>
   <!-- Google tag (gtag.js) -->
-<!--   <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script> -->
-<!--   <script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VKL4WVSZSW"></script>
+  <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-E00L9PT3V9');
-  </script> -->
+    gtag('config', 'G-VKL4WVSZSW');
+  </script>
   <title>{{ site.name }}</title>
 
   <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -36,10 +36,10 @@
               </h1>
               <!-- <p>Work in Progress</p> -->
               <p> 
-                I am a Machine Learning Engineer at <a href="https://en.wikipedia.org/wiki/Restaurant_Brands_International"> RBI (Tim Hortons) </a> where I work on recommendations system.
+                I am a Machine Learning Engineer at <a href="https://en.wikipedia.org/wiki/Restaurant_Brands_International"> RBI (Tim Hortons) </a> where I work on recommendation system.
               </p>
               <p> 
-                At RBI, I build and deploy scalable recommendation systems that powers over 2.6k <a href="https://www.timhortons.com/store-locator"> Hortons Drive Trus </a> across Canada 
+                At RBI, I build and deploy scalable recommendation systems powering ~2.6k <a href="https://www.timhortons.com/store-locator"> TH Drive Trus </a> across Canada 
               </p>
               <p> 
                 I previously interned in the <a href="https://mila.quebec/en/ai-for-humanity">Humanitarian AI group</a> at <a href="https://mila.quebec/en"> MILA </a> under the supervision of <a href="https://scholar.google.com/citations?user=kGSzBpMAAAAJ&hl=en"> Dianbo Liu </a>and <a href="https://scholar.google.com/citations?user=d20VuzsAAAAJ&hl=en"> Kris Sankaran.</a> My Principal Investigator was <a href="https://yoshuabengio.org"> Prof Yoshua Bengio.</a>
@@ -60,11 +60,24 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>News</h2>
+              <p>
+                [05/2023] Invited as a panelist at <a href="https://amhn.vizhub.ai/">the Associative Memory & Hopfield Networks Workshop</a> at NeurIPS, 2023</a>.
+                [07/2021] Our paper on <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Cheng_FloW_A_Dataset_and_Benchmark_for_Floating_Waste_Detection_in_ICCV_2021_paper.html">FloW: A Dataset and Benchmark for Floating Waste Detection in Inland Waters</a> was accepted to ICCV, 2021.
+                [02/2021] Our paper on <a href="https://arxiv.org/abs/2104.02242v3">hBert+BiasCorp - Fighting Racism on the Web</a> was accepted to the <a href="https://sites.google.com/view/lt-edi-2021/home">First Workshop on Language Technology for Equality, Diversity, and Inclusion</a> at EACL, 2021.
+                [08/2020] Participated in <a href="https://cbmm.mit.edu/summer-school">2020 MIT CBMM Brains, Minds & Machines Summer Course</a> (remotely due to COVID).
+                [10/2019] Accepted offer to join<a href="https://mila.quebec/en">MILA</a> as a visiting research.
+                [10/2018] Awarded a travel grant by <a href="https://blackinai.github.io/#/">BAI</a> to attend NeurIPS, 2018.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
               <p>
-                I'm generally interested in building learning algorithms drawing inspiration from the intersection of statistical physics, computational neuroscience and computer science (broadly speaking - system 2 learning).
-              </p>
-              <p>
+                I'm generally interested in building learning algorithms; drawing inspiration from the intersection of statistical physics, computational neuroscience and computer science (broadly speaking - system 2 learning).
                 I'm also interested in geometric deep learning (many real-world data-sets can naturally be framed as graphs)
               </p>
               <p>
@@ -73,22 +86,7 @@
             </td>
           </tr>
         </table>
-        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"> -->
-<!--
-Life
-I rant about politics (sighs,its fine if I stop being nice), economics and startups.
-When not coding or reading boring papers, I listen to music, dance (only in my secret life), go out for a longgg walk or share my faith (dont get offended pls)
-
-News
-[] Invited as a panel at the Associative Workship at NeurIPS (lets discuss hopfield networks meet engineering if you are around).
-[] Our paper was accepted
-[] Participated in the MIT CIBMM (remotely due to COVID)
-[] Our paper was accepted
-[] visiting research at MILA
-
-
-Miscell
-Reviewers
+        <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat == 'research' %}
@@ -144,65 +142,8 @@ Reviewers
               </p>
             </td>
           </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'Intel' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              <em>{{post.categories}} {{post.course}}</em>
-              <br>
-              {{ post.date | date: "%Y-%m-%d" }}
-
-              <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
-              {% endif %}
-              {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
-              {% endif %}
-              {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
-              {% endif %}
-              {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-        <br>
+        </table> -->
+        <!--
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
@@ -284,4 +225,12 @@ Reviewers
 </body>
 
 </html>
+<!-- 
+Life
+I rant about politics (sighs,its fine if I stop being nice), economics and startups.
+When not coding or reading boring papers, I listen to music, dance (only in my secret life), go out for a longgg walk or share my faith (dont get offended pls)
 
+
+
+Miscell
+Reviewers -->
