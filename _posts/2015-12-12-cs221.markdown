@@ -1,0 +1,449 @@
+---
+layout: post
+title:  "Doctor Bayes"
+date:   2015-12-12 22:21:59 +00:00
+image: /images/drbayes.png
+categories: Stanford
+author: "Leo Keselman"
+subtitle: "Symptom-based disease prediction"
+course: "CS221: Artificial Intelligence" 
+code: https://github.com/leonidk/drbayes
+website: http://doctorbayes.com
+poster: /pdfs/cs229-poster.pdf
+paper: /pdfs/cs221.pdf
+patent: https://patents.google.com/patent/US9661298B2
+course: "CS231A: Computer Vision, From 3D Reconstruction to Recognition"
+code: https://github.com/leonidk/centest
+---
+
+Detecting disease from a short description of symptoms. In some small testing, obtained nearly 90% top 5 accuracy and about 60% top 1 accuracy 
+
+For Stanford's Machine Learning class, I worked on a project to alleviate the impact of healthcare spending on the the “last mile” of medicine and predict a user’s illness simply based on a description of their symptoms. While handling multiple online data sources we found that a large part of the challenge was consolidating information across data sources in a consistent matter. We explore several techniques for automatic document matching across data bases of documents,with the goal of finding matching documents across Freebase, Mayo Clinic, andWikipedia. We define matching documents to be articles which describe the same disease, then we found matching documents between databases with 91% accuracy. 
+
+Using data from Freebase, Mayo Clinic, and Wikipedia, we trained a Naive Bayes, Logistic Regression, Random Trees, and many other ML models. We obtain nearly 90% top 5 accuracy and about 60% top 1 accuracy 
+
+
+Now hosted at [http://doctorbayes.com](http://doctorbayes.com){:target="_blank"} I rebuilt this project from scratch (without the use of other libraries) in both Python and Javascript. The source code is available on my [github](https://github.com/leonidk/drbayes){:target="_blank"}.
+
+
+[CS221 PDF](/pdfs/cs221.pdf){:target="_blank"}
+
+[CS229 PDF](/pdfs/cs229.pdf){:target="_blank"}
+
+[CS229 Poster](/pdfs/cs229-poster.pdf){:target="_blank"}
+
+[YouTube Presentation](https://www.youtube.com/watch?v=WO1RJC_9k7s){:target="_blank"}
+
+[Source Code](https://github.com/leonidk/centest){:target="_blank"}
+
+---
+layout: post
+title:  "Dice Stacking: A Dynamic Manipulation Task"
+date:   2018-12-05 21:21:53 +00:00
+image: /images/cupdice.png
+categories: CMU
+course: "16-741 Mechanics of Manipulation"
+author: "Leo Keselman"
+video: https://www.youtube.com/watch?v=kTuZnmyR4Kc
+paper: /pdfs/dicestack.pdf
+code: https://github.com/leonidk/cupdice
+---
+With Hunter Goforth, we designed a manipulation task and solved it with imitation learning. 
+
+With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+
+---
+layout: post
+title:  "Introspective Neural Networks"
+date:   2018-05-15 21:21:53 +00:00
+image: /images/intro.jpg
+categories: CMU
+course: "16-824: Visual Learning and Recognition"
+author: "Leo Keselman"
+paper: /pdfs/16824_snpowers_lkeselma.pdf
+---
+Using pre-trained neural networks to improve fine grained recognition via style transfer. 
+
+With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+
+---
+layout: post
+title:  "Superresolution Micrscopy"
+date:   2017-03-16 22:20:59 +00:00
+image: /images/cs371.png
+categories: Stanford
+author: "Leo Keselman"
+subtitle: "With Compressed Sensing"
+slides: /pdfs/cs371.pdf
+code: https://github.com/leonidk/cs371
+course: "CS371: Computational Biology in Four Dimensions"
+---
+
+An implementation of [Faster STORM using compressed sensing](https://www.ncbi.nlm.nih.gov/pubmed/22522657). 
+
+In order to understand the method, I implemented the presented techniques in simulation in Python. The code may be useful to better understand how STORM works, how compressed sensing can be applied to tackle the problem, and compare various experimental techniques. 
+ 
+[CS371 Slides](/pdfs/cs371.pdf){:target="_blank"}
+
+[Source Code](https://github.com/leonidk/cs371){:target="_blank"}
+
+---
+layout: post
+title:  "Stochastic Sampling of Parametric Policies"
+date:   2018-05-05 21:21:53 +00:00
+image: /images/stochopt.png
+categories: CMU
+course: "16-745: Dynamic Optimization"
+author: "Leo Keselman"
+paper: /pdfs/16745_lkeselma.pdf
+---
+Using a very simple algorithm to solve some very simple environments
+
+With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+
+---
+layout: post
+title:  "Computational models for text summarization"
+date:   2017-03-18 22:20:59 +00:00
+image: /images/cs224n-poster.png
+categories: Stanford
+author: "Leo Keselman"
+subtitle: "RNNs language models"
+course: "CS224N: Natural Language Processing"
+poster: /pdfs/cs224n-poster.pdf
+paper: /pdfs/cs224n.pdf
+video: https://youtu.be/5TQEfSbpPvc
+code: https://github.com/ludwigschubert/cs224n-project
+---
+Work with [Ludwig Schubert](https://schubert.io/) on simplified encoders stages for text summarization.
+
+Abstractive text summarization is a blossoming area of natural language processing research in which short textual summaries are generated from longer input documents. Existing state-of-the-art methods take long time to train, and are limited to functioning on relatively short input sequences. We evaluate neural network architectures with simplified encoder stages, which naturally support arbitrarily long input sequences in a computationally efficient manner. 
+
+---
+layout: post
+title:  "Optimizing for Physical Simulation"
+date:   2018-03-22 21:21:53 +00:00
+image: /images/physics.gif
+categories: CMU
+course: "16-745: Dynamic Optimization"
+author: "Leo Keselman"
+code: https://github.com/leonidk/physical_simulation
+---
+With [Chris Atkeson](http://www.cs.cmu.edu/~cga/) and Alex Spitzer. Using optimizers to match an observed trajectory.
+
+Additional details are in an [arXiv paper](https://arxiv.org/abs/1705.05548){:target="_blank"}.
+
+
+[Intel Press Release](https://newsroom.intel.com/chip-shots/intel-announces-tools-realsense-technology-development/){:target="_blank"}
+
+[YouTube](https://www.youtube.com/watch?v=pvXJSn22ujU){:target="_blank"}
+
+---
+layout: post
+title:  "A Maze Bot"
+date:   2017-06-12 21:21:53 +00:00
+image: /images/cs225a.jpg
+categories: Stanford
+author: "Leo Keselman"
+course: "CS225A: Experimental Robotics"
+video: https://www.youtube.com/watch?v=UcLmpWmIVzE
+video2: https://www.youtube.com/watch?v=MgCWEkhtqiQ
+paper: /pdfs/cs225a.pdf
+---
+Making a 6-DoF PUMA arm solve a maze with real-time vision and tracking. 
+
+The final project combined real-time vision, planning, and control into a success project for our Experimental Robotics Graduate class. 
+
+[CS225A Paper](/pdfs/cs225a.pdf){:target="_blank"}
+
+[Short demo video on YouTube](https://www.youtube.com/watch?v=UcLmpWmIVzE)
+
+[Longer demo video on YouTube](https://www.youtube.com/watch?v=MgCWEkhtqiQ)
+
+<center>
+<iframe src="http://www.youtube.com/embed/MgCWEkhtqiQ" frameborder="0" height="315" width="560"></iframe>
+</center>
+
+---
+layout: post
+title:  "Learning Implicit Communication Strategies"
+date:   2017-06-10 21:21:53 +00:00
+image: /images/cs234.png
+categories: Stanford
+author: "Leo Keselman"
+course: "CS234: Deep Reinforcement Learning"
+---
+Work with  <a href="http://stanford.edu/~aaronjg/">Aaron Goodman</a> on used reinforcement learning to discover implicit collusion strategies in the context of an iterated prisoner’s dilemma. 
+
+We analyzed the techniques that are learned to understand how agents can develop signaling mechanisms over restricted communication channels. We implemented Deep RL methods, comparing Deep Q-Learning, Deep Q-Learning with an auxiliary loss function (which we designed to enable convergence), and Policy Gradient methods. These function approximators were over sequences of unknown length, for which we implemented and compared both Recurrent and Convolutional Neural Networks (pooling over time). 
+
+As this work is part of Aaron's on-going research, the paper submitted for the class project is not publicly available. 
+---
+layout: post
+title:  "Intel RealSense Stereoscopic Depth Cameras"
+date:   2017-05-01 21:21:53 +00:00
+image: /images/ccd2017.png
+categories: research
+authors: "<strong>Leonid Keselman</strong>, John Iselin Woodfill, Anders Grunnet-Jepsen, Achintya Bhowmik"
+subtitle: "CCD 2017"
+venue: "CVPR Workshops (Computational Cameras and Displays)"
+arxiv: https://arxiv.org/abs/1705.05548
+---
+Technical and design details of the Intel RealSense R200 and D400 series
+
+I wrote a paper describing the details of a family of RGBD cameras, ASICs and algorithms produced by Intel. It was submitted and accepted to CCD 2017, a CVPR 2017 Workshop. My coauthors were all senior management at Intel and the paper was written to inform the academic community of issues, challenges and priorities in building stereoscopic depth cameras for production use. We highlight state-of-the-art performance on modern datasets, on certain metrics, along with establishing baselines for new datasets and evaluation metrics for depth cameras in general. 
+
+---
+layout: post
+title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
+date:   2023-08-28 22:21:59 +00:00
+image: /images/3dgaussian.jpg
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+venue: "arXiv"
+arxiv: https://arxiv.org/abs/2308.14737
+code: https://github.com/leonidk/fmb-plus
+website: https://leonidk.github.io/fmb-plus
+---
+We show how shape reconstruction with 3D Gaussians can be expanded to include differentiable optical flow, colored mesh exports and more. 
+
+---
+layout: post
+title:  "Optimizing Algorithms From Pairwise User Preferences"
+date:   2023-08-09 22:21:59 +00:00
+image: /images/pairwise.png
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>, Katherine Shih, Martial Hebert, Aaron Steinfeld"
+venue: "International Conference on Intelligent Robots and Systems"
+arxiv: https://arxiv.org/abs/2308.04571
+code: https://github.com/leonidk/pairwise
+website: https://leonidk.github.io/pairwise
+---
+We show how to perform efficient black-box optimization of algorithm configuration from user preferences. Results include Intel RealSense stereo cameras and a robot social navigation policy.
+---
+layout: post
+title:  "Discovering Multiple Algorithm Configurations"
+date:   2023-03-14 22:21:59 +00:00
+image: /images/modecfg.png
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+venue: "International Conference on Robotics and Automation"
+arxiv: https://arxiv.org/abs/2303.07434
+code: https://github.com/leonidk/modecfg
+website: https://leonidk.github.io/modecfg
+youtube: https://www.youtube.com/watch?v=r2426BR4r8o
+---
+We show the benefits of discovering an ensemble of configurations for a given algorithm during the course of optimization. Results on stereo, planning and visual odometry. 
+
+---
+layout: post
+title:  "Direct Fitting of Gaussian Mixture Models"
+date:   2019-05-29 22:21:59 +00:00
+image: /images/crv19.png
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+venue: "Computer and Robot Vision Conference"
+arxiv: https://arxiv.org/abs/1904.05537
+slides: /pdfs/crv19-slides.pdf
+code: https://github.com/leonidk/direct_gmm
+website: https://leonidk.github.io/direct_gmm/
+---
+
+A formulation for fitting Gaussian Mixture Models (GMMs) directly to geometric objects, such as a triangular mesh. This method produces more robust results and produces an improvement in 3D registration for both meshes and RGB-D frames. 
+
+---
+layout: post
+title:  "Venue Analytics: A Simple Alternative to Citation-Based Metrics"
+date:   2019-06-04 22:21:59 +00:00
+image: /images/jcdl2019.png
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>"
+venue: "ACM/IEEE Joint Conference on Digital Libraries"
+arxiv: https://arxiv.org/abs/1904.12573
+slides: /pdfs/jcdl2019.pdf
+code: https://github.com/leonidk/venue_scores
+website: https://leonidk.github.io/venue_scores/
+---
+A bibliometric/scientometric project. Our main two results are a method of assigning value to all venues in computer science and a method to organize them into distinct subfields, all without using citation data. The resulting venue scores can be used to rank universities' by scholarly output, and produce a responsive author-level metric.
+
+
+---
+layout: post
+title:  "Dequantization of Depth Data"
+date:   2015-04-22 22:21:59 +00:00
+image: /images/dequant.jpg
+categories: Other
+author: "Leo Keselman"
+subtitle: "For higher quality normal maps"
+code: https://github.com/leonidk/qInterp
+---
+An O(1) time algorithm for producing smooth normals for quantized data, such as the Kinect. 
+
+
+[GitHub Link](https://github.com/leonidk/qInterp){:target="_blank"}
+
+---
+layout: post
+title:  "Dynamics Based Hand Tracking"
+date:   2013-03-01 22:21:59 +00:00
+image: /images/hand.png
+categories: research
+author: "Leo Keselman"
+venue: "Graphics Interfaces"
+authors: "Stan Melax, <strong>Leonid Keselman</strong>, Sterling Orsten"
+subtitle: "Dynamics based 3D skeletal hand tracking"
+arxiv: https://arxiv.org/abs/1705.07640
+code: https://github.com/IntelRealSense/hand_tracking_samples
+---
+
+Using a physics engine (e.g. a dynamics solver) to track 3D articulated objects in real-time. 
+
+<blockquote>
+  <p>
+    This research explores a new approach to tracking hands, or any articulated model, by using an augmented rigid body simulation. This allows us to phrase 3D object tracking as a linear complementarity problem with a well-defined solution. Based on a depth sensor&#8217;s samples, the system generates constraints that limit motion orthogonal to the rigid body model&#8217;s surface. These constraints, along with prior motion, collision/contact constraints, and joint mechanics, are resolved with a projected Gauss-Seidel solver. Due to camera noise properties and attachment errors, the numerous surface constraints are impulse capped to avoid overpowering mechanical constraints. To improve tracking accuracy, multiple simulations are spawned at each frame and fed a variety of heuristics, constraints and poses. A 3D error metric selects the best-fit simulation, helping the system handle challenging hand motions.
+  </p>
+</blockquote>
+
+---
+layout: post
+title:  "Dynamics Based Hand Tracking"
+date:   2013-01-27 22:21:59 +00:00
+image: /images/i3d2013.png
+categories: research
+author: "Leo Keselman"
+subtitle: "Best Poster Award"
+authors: "Stan Melax, <strong>Leonid Keselman</strong>, Sterling Orsten"
+venue: "ACM SIGGRAPH Symposium on Interactive 3D Graphics and Games"
+poster: /pdfs/i3d_2013.pdf
+---
+
+A tracking algorithm that was real-time on a consumer laptop. **Won Best Poster Award**.
+
+[Poster PDF](/pdfs/i3d_2013.pdf){:target="_blank"}
+
+[ACM Citation](http://dl.acm.org/citation.cfm?id=2448232){:target="_blank"}
+
+[arXiv link](https://arxiv.org/abs/1705.07640){:target="_blank"}
+
+
+---
+layout: post
+title:  "Rigid-body Dynamics for Articulated Mesh Tracking"
+date:   2015-06-12 22:20:59 +00:00
+image: /images/hands2015.png
+categories: research
+author: "Leo Keselman"
+subtitle: "Invited Workshop Talk"
+venue: "CVPR Workshops (HANDS)"
+slides: /pdfs/hands2015.pdf
+authors: "<strong>Leonid Keselman</strong>, Sterling Orsten, Stan Melax"
+---
+An invited talk for the [HANDS 2015](http://www.ics.uci.edu/~jsupanci/HANDS-2015/){:target="_blank"} workshop at CVPR 2015. This includes further details about the efficiency of our rigid-body solver, our machine-learning tools, and some details about our data annotation process.
+
+[Presented Slides](/pdfs/hands2015.pdf){:target="_blank"}
+
+[Video of Fast Tracking](https://www.youtube.com/watch?v=sTOF0eY9uv4){:target="_blank"}
+
+[Video of Tracking Under Uncertainty](https://www.youtube.com/watch?v=_DogsLiC4XY){:target="_blank"}
+
+
+---
+layout: post
+title:  "Stereoscopic depth reconstruction with probabilistic pixel correspondence search"
+date:   2012-07-24 22:21:59 +00:00
+image: /images/stereo.png
+categories: Intel
+patent: https://patents.google.com/patent/US8792710B2
+---
+A fast method for performing stereo depth maps. 
+
+---
+layout: post
+title:  "DashPoint: A low-cost, low-power human interface device"
+date:   2013-06-07 22:21:59 +00:00
+image: /images/dashpoint.png
+categories: Intel
+patent: https://patents.google.com/patent/US10007994B2 
+patent2: https://patents.google.com/patent/US9494415B2
+---
+Finger tracking on a microcontroller, with optics tricks and some HCI ideas
+
+---
+layout: post
+title:  "Level-set based tracking and segmentation"
+date:   2015-12-04 22:22:59 +00:00
+image: /images/cs279.png
+categories: Stanford
+author: "Leo Keselman"
+subtitle: "Level-set based tracking and segmentation"
+code: https://github.com/leonidk/drlse
+paper: /pdfs/cs279.pdf
+course: "CS279: Structure and Organization of Biomolecules and Cells"
+---
+
+We implemented a detection and deformable tracking pipeline for red blood cells. 
+
+ including automated detection with a Hough Circle Transform, and deformable tracking with our own Python implementation of Distance Regularized Level Set Evolution on top of basic image processing primitives provided by Python’s scikit-image library (e.g. Gaussian Filters). We analyze the behavior of this tracking system and its shortcomings.
+
+
+[Paper PDF](/pdfs/cs279.pdf){:target="_blank"}
+
+[GitHub](https://github.com/leonidk/drlse){:target="_blank"}
+
+---
+layout: post
+title:  "Real-time Box Measurement"
+date:   2015-04-08 21:21:53 +00:00
+image: /images/box.jpg
+categories: Intel
+author: "Leo Keselman"
+subtitle: "Real-time measurement of rectangular prisms"
+video: https://www.youtube.com/watch?v=ZZvZVaBFpYE
+video2: https://www.youtube.com/watch?v=rYnFWkF7Jx8
+---
+Using a single depth sensor, real-time detection of cuboids, accurate estimation of their dimensions, and even some bin-packing.
+
+To show that the Intel RealSense cameras were capable of real-time volume measurement. I designed and built an algorithm that decomposed the problem into two parts, a surface-estimation step and a bounding rectangle step. Then, with basic geometry, was able to build a system that estimated object volume, even with only two visible sides. This was further expanded with a configurable-objective [Bin Packing solver](https://en.wikipedia.org/wiki/Bin_packing_problem){:target="_blank"} that I wrote. The use of this is that most shipping companies (FedEx, USPS, UPS, DHL, etc.) now are limited (and hence charge), by volume not weight.   
+
+
+With the help of [Sterling Orsten](https://github.com/sgorsten){:target="_blank"} and [Dimitri Diakopoulos](https://github.com/ddiakopoulos){:target="_blank"}, we put together a compelling visual prototype that was shown by Intel's CEO at IDF 2015 (China). 
+
+
+[YouTube video of algorithm](https://www.youtube.com/watch?v=rYnFWkF7Jx8){:target="_blank"}
+
+[YouTube video of IDF 2015 Demo](https://www.youtube.com/watch?v=ZZvZVaBFpYE){:target="_blank"}
+
+
+---
+layout: post
+title:  "GINA: Low power design"
+date:   2010-08-22 00:10:26 +00:00
+image: /images/gina-power.png
+categories: UC
+course: " Berkeley"
+author: "Leo Keselman"
+subtitle: "Low power wireless"
+---
+For testing and validating the functionality of the GINA (Guidance and Inertial NAvigation) mote, a 1.6 gram sensor platform. 
+
+ I wrote custom low-power firmware to disable and track the power usage the board as different components were put into sleep states. Eventually, the sum of the running components' current draw (after the removal of the power LEDs) was reduced to 130uA, of which 110uA were sleep-state draw from a magnetometer in single-supply configuration. Many thanks to [Professor Kris Pister's research group](http://wsn.eecs.berkeley.edu/){:target="_blank"}, including Dr. Anita Flynn and Dr. Thomas Watteyne and Ankur Mehta for the assistance and opportunities.
+---
+layout: post
+title:  "Fuzzy Metaballs: Approximate Differentiable Rendering with Algebraic Surfaces"
+date:   2022-07-21 22:21:59 +00:00
+image: /images/fuzzy22.png
+categories: research
+author: "Leo Keselman"
+authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+venue: "European Conference on Computer Vision (Oral)"
+arxiv: https://arxiv.org/abs/2207.10606
+code: https://github.com/leonidk/fuzzy-metaballs
+website: https://leonidk.github.io/fuzzy-metaballs/
+youtube: https://www.youtube.com/watch?v=Ec7cxEc9eOU
+---
+An approximate differentiable renderer for a compact, interpretable representation, which we call Fuzzy Metaballs. Our approximate renderer focuses on rendering shapes via depth maps and silhouettes. It sacrifices fidelity for utility, producing fast runtimes and high-quality gradient information that can be used to solve vision tasks.
